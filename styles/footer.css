@@ -25,6 +25,8 @@
   }
     .footer-logo-wrapper a {
       display: inline-block;
+      width: 100%;
+      margin: 20px 0;
     }
       .footer-logo-wrapper svg, .footer-logo-wrapper .svg {
         height: 30px;
@@ -36,7 +38,7 @@
     margin: auto;
   }
   .footer-wrapper h5 {
-    font-size: .813em;
+    font-size: 1em;
   }
     .footer-wrapper h5.legal:before {
         content: '';
