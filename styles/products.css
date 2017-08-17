@@ -1,0 +1,155 @@
+#products {
+    margin-top: 200px;
+    padding: 20px 0 100px;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle, #542c86, black 75%); /* Safari */
+    background: -o-radial-gradient(circle, #542c86, black 75%); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #542c86, black 75%); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #542c86, black 75%); /* Standard syntax */
+}
+    #products .wrapper {
+        margin-top: -200px;
+    }
+    .image {
+        margin-bottom: 30px;
+    }
+    /*
+    .image {
+        background: url('../images/placeholder.png') no-repeat center;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+    }
+        .image:hover {
+            background: url('https://media.giphy.com/media/saQMKMevKsDYY/giphy.gif') no-repeat center;
+            background-size: cover;
+        }*/
+    .single-product {
+        position: relative;
+        margin-bottom: 30px;
+        background: #fff;
+        color: #000;
+        font-family: "Univers W01";
+        -webkit-box-shadow: 0px 24px 40px -17px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 24px 40px -17px rgba(0,0,0,0.75);
+        box-shadow: 0px 24px 40px -17px rgba(0,0,0,0.75);
+    }
+        .prod-info {
+            margin: 0 30px;
+            text-transform: uppercase;
+        }
+        .single-product .arena-button {
+            margin: 0 0 20px 20px;
+        }
+        .single-product h2 {
+            margin-bottom: 25px;
+            font-size: 1.125em;
+            font-weight: bold;
+        }
+            .single-product h2 a {
+                color: #000;
+            }
+                .single-product h2 a:hover {
+                    text-decoration: none;
+                }
+        .single-product p {
+            line-height: 1.75em;
+            margin-bottom: 30px;
+        }
+    #coming-soon {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        border-top: 85px solid #fff;
+        border-right: 45px solid transparent;
+        margin: -10px 0 0 -10px;
+    }
+        #coming-soon h2 {
+            padding: 20px 0 0 30px;
+            margin-top: -75px;
+            color: #743db9;
+            text-transform: uppercase;
+            font-size: 1.75em;
+            position: absolute;
+        }
+    #purple-shadow {
+        position: absolute;
+        width: 310px;
+        height: 100px;
+        border-top: 93px solid #743db9;
+        border-right: 50px solid transparent;
+        margin: -10px 0 0 -10px;
+    }
+.shop-more.trans-btn {
+    font-size: 1.25em;
+    margin-top: 100px;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 30px 50px;
+}
+    .shop-more {
+        font-size: 1.25em;
+        margin: 100px auto 0;
+        border: solid 1px #552d87;
+        color: #552d87;
+        background: #ffffff;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding: 30px 50px;
+        font-family: 'Univers W01';
+        text-decoration: none;
+        text-align: center;
+        display: table;
+    }
+        .shop-more:hover {
+            color: #552d87;
+        }
+.subscribe-button-inner {
+    margin: 0 0 30px 30px !important;
+}
+@media (min-width: 768px) {
+    #products .wrapper {
+        display: table;        /* IE < 10, Opera *Presto* Desktop (Now dead) */
+        display: -webkit-box;  /* Safari 3.1 - 6, Chrome < 21 (2009 Spec), UCBrowser Android */
+        display: -moz-box;     /* Firefox 2 - 27 (2009 Spec), UCMini Android */
+        display: -ms-flexbox;  /* IE10 (2012 Syntax) */
+        display: -webkit-flex; /* Safari 6.1 - 8, Android < 4.4, BB < 10, Chrome 21 - 28 */
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+   .single-product {
+        margin: 0 2% 80px;
+        width: 45%;
+   }
+    .shop-more.trans-btn, .shop-more {
+        margin-top: 30px;
+        padding: 30px 150px;
+    }
+}
+@media (min-width: 1260px) {
+    .prod-info {
+        float: left;
+        width: 53%;
+        margin: 0 0 0 30px;
+    }
+   .single-product .arena-button {
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    .subscribe-button-inner {
+        float: right;
+        margin: 10px 30px 0 0 !important;
+    }
+}

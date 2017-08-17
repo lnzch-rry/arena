@@ -1,0 +1,73 @@
+.footer-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: 'Univers W01';
+}
+  .footer-social {
+    margin-bottom: 50px;
+    margin-top: -95px;
+  }
+    .footer-social ul {
+      padding-left: 0;
+    }
+      .footer-social li {
+          display: inline-block;
+          margin: 0 10px auto 10px;
+      }
+  .footer-navigation-wrapper a {
+    display: block;
+    margin: 20px 10px;
+    color: inherit;
+  }
+  .footer-logo-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+    .footer-logo-wrapper a {
+      display: inline-block;
+    }
+      .footer-logo-wrapper svg, .footer-logo-wrapper .svg {
+        height: 30px;
+        width: auto;
+        max-width: 30%;
+      }
+  .text-max-width {
+    max-width: 750px;
+    margin: auto;
+  }
+  .footer-wrapper h5 {
+    font-size: .813em;
+  }
+    .footer-wrapper h5.legal:before {
+        content: '';
+        display: block;
+        width: 50px;
+        margin: 20px auto;
+        border-bottom: 1px solid #000;
+    }
+
+@media (min-width: 591px) {
+  .footer-wrapper .footer-navigation-wrapper a {
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-navigation-wrapper a {
+    display: inline;
+  }
+
+  .footer-logo-wrapper a {
+    display: inline;
+  }
+    .footer-logo-wrapper a:not(:last-of-type) svg, .footer-logo-wrapper a:not(:last-of-type) .svg {
+        border-right: 1px solid #000;
+        margin-right: 15px;
+        padding-right: 15px;
+      }
+    .footer-logo-wrapper a svg, .footer-logo-wrapper a .svg {
+      height: 30px;
+      width: auto;
+      max-width: 30%;
+    }
+}

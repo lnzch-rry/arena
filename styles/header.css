@@ -1,0 +1,65 @@
+    header {
+        position: relative;
+        background: #FFF;
+        z-index: 10;
+        font-family: "Univers W01";
+    }
+    header img {
+        display: block;
+    }
+    header section {
+        padding: 0 15px;
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+    header ul {
+        padding-left: 0;
+    }
+    header li {
+        display: inline-block;
+        margin: 0 10px auto 10px;
+    }
+    .header-container {
+        max-width: 1920px;
+        width: 95%;
+        margin: 0 auto;
+        display: table;
+    }
+    .logo {
+        float: left;
+        max-width: 100px;
+        width: 100%;
+    }
+    .header-social {
+        float: right;
+        text-align: center;
+        margin-top: -10px;
+        padding-bottom: 40px;
+    }
+        .header-social p {
+            color: #552d87;
+            text-transform: uppercase;
+        }
+        .header-social svg {
+            fill: #552d87;
+        }
+}
+@media (min-width: 768px) {
+    .header-container {
+        width: 90%;
+    }
+   .logo {
+       max-width: 160px;
+   }
+}
+@media (min-width: 768px) {
+    header section {
+        padding: 30px 3% 0 3%;
+    }
+    .header-container {
+        width: 90%;
+    }
+   .logo {
+       max-width: 160px;
+   }
+}

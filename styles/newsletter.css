@@ -1,0 +1,51 @@
+#newsletter {
+    background: url('../images/grey-bg.png') no-repeat top left;
+    background-size: cover;
+    padding: 0px 0 100px;
+    font-family: 'Univers W01';
+}
+    .quote {
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        padding: 200px 0 100px;
+        position: relative;
+        color: #fff;
+    }
+    .quote blockquote {
+        width: 90%;
+        margin: 0 auto;
+        padding: 70px 0 50px;
+        font-size: 2.5em;
+        border-left: none;
+        letter-spacing: 1px;
+    }
+    .quote span {
+        display: block;
+        padding-top: 40px;
+        font-size: .5em;
+        font-weight: normal;
+        letter-spacing: .5px;
+    }
+    .quote:after {
+        content: '';
+        display: block;
+        width: 175px;
+        margin: 0 auto;
+        border-bottom: 1px solid #fff;
+    }
+@media (min-width: 768px) {
+    .quote {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 850px;
+    }
+        .quote blockquote {
+            font-size: 3.125em;
+        }
+}
+@media (min-width: 1450px) {
+    .quote {
+        padding: 250px 0 100px;
+    }
+}

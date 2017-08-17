@@ -1,0 +1,171 @@
+@import url('../bootstrap-3.3.6-dist/css/bootstrap.css');
+@import url('global.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('banner.css');
+@import url('products.css');
+@import url('newsletter.css');
+@import url('signup.css');
+
+.social a {
+    float: left;
+    margin-right: 24px;
+}
+
+.social a:last-of-type {
+    margin-right: 0;
+}
+
+.prod-container .carousel-container li:hover  > div{
+    border: 1px solid #5f259f;
+}
+#myoplex-container .carousel-container li:hover > div {
+    border: 1px solid #fff;
+}
+.new-prod.active:before {
+    background: url("https://eas.com/static/img/global/new-badge.png") 0 0 no-repeat;
+}
+
+
+
+.prod-container .myoplex .carousel-container li p,
+.prod-container .myoplex .carousel-container li a.cta-button {
+    color: #FFF;
+}
+
+.fact-title {
+    font-size: 2em;
+    font-style: oblique;
+    margin: 20px 0;
+}
+
+.nutrition tr th {
+    text-align: right;
+}
+
+
+@media (min-width: 1024px) {
+    .strongLogoBx a {
+        width: 78px;
+    }
+    .myoplex2 .cta-button {
+        background: #271131;
+        border: solid 1px #FFF;
+    }
+    #menu-icon,
+    .hdr-navigation .nav-cls-btn {
+        display: none;
+    }
+    .hdr-navigation li:last-child {
+        padding-bottom: 0;
+    }
+
+    .hdr-navigation li.split {
+        display: inline-block;
+    }
+
+    .trans-bkg .hdr-navigation a {
+        color: #FFF;
+    }
+    .logo {
+        margin-bottom: 20px;
+        float: left;
+    }
+    /*product landing page*/
+    .prod-container header {
+        background: #FFF;
+    }
+    .carousel-container {
+        width: 100%;
+        margin: 40px auto;
+        max-width: 1520px;
+    }
+    .callout-bg0 .carousel-container, .callout-bg1 .carousel-container, .myoplex3 .carousel-container, .myoplex5 .carousel-container {
+        max-width: none;
+
+    }
+    .prod-carousel{
+        transform: none !important;
+    }
+
+
+    .callout-bg0 .carousel-container li {
+        width: 29% !important;
+    }
+
+    .prod-container .carousel-container li:last-child {
+        margin-right: 0;
+    }
+    .prod-container .callout-bg1 .cta-button {
+        width: 162px;
+    }
+    /*.prod-container header .content h1 {
+        font-size: 3em;
+    }*/
+    .prod-container .carousel-container li a.cta-button {
+        float: none;
+    }
+    .prod-container header .content {
+        max-width: 100% !important;
+        top: 35%;
+    }
+    .fancybox-inner {
+        /*height: 100% !important;*/
+    }
+    .carousel-wrapper section:nth-child(odd):before {
+        content: none;
+    }
+    .prod-container .carousel-container li p {
+        color: #5f259f;
+        font-size: 1.13em;
+    }
+    .hdr-navigation:after {
+        display: none;
+    }
+    .hdr-navigation li:hover {
+        background: none;
+    }
+}
+
+.unsubscribe-submit-button {
+    border: 0;
+    width: 100px;
+    height: 36px;
+}
+
+.unsubscribe-form-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 0;
+}
+
+.unsubscribe-form-container .disclaimer {
+   padding: 0;
+   color:#603393;
+}
+@media (min-width:320px){
+.unsubscribe-form-container {padding: 0 15%;}
+.unsubscribe-form-container h3{font-family:'Compacta W01';font-weight:700;font-style:italic;color:#603393;font-size:1.75em;letter-spacing:1px;margin-top:4%;margin-bottom:1.5%;}
+.unsubscribe-form-container .form-subheader{font-family:'Univers W10';font-size: 1.25em;font-weight:200;font-style:normal}
+.unsubscribe-form-container p {font-size:.875em;font-family:'Univers W10';font-weight:200;font-style:normal;letter-spacing:.7px;margin: 1% 0;}
+.unsubscribe-form-container .form-label{font-size:.875em;font-family:'Univers W10';font-weight:200;font-style:normal;letter-spacing:.7px;padding:1% 0;}
+.unsubscribe-form-container .form-field {margin-bottom: 2.5%;}
+}
+@media (min-width:768px){
+.unsubscribe-form-container h3{font-size:2.25em}
+}
+@media (min-width:1024px){
+.unsubscribe-form-container p, .unsubscribe-form-container .form-label {font-size:1.125em}
+.unsubscribe-form-container h3{font-family:'Univers W01';font-weight:700;font-size:2.625em;font-style:oblique}
+}
+
+.validation-summary-errors {
+    font-family:'Univers W01';
+    font-weight: 700;
+    color: red;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

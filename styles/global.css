@@ -1,0 +1,202 @@
+body {
+    font-size: 16px;
+}
+img {
+    max-width: 100%;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+.wrapper {
+    max-width: 1420px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+button:focus, a:focus {outline:0;}
+.arena-button {
+    font-family: 'Univers W01';
+    text-decoration: none;
+    background: #552d87;
+    border: solid 1px #552d87;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    display: table;
+    font-size: 1.313em;
+    padding: 20px 45px;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+    .arena-button.trans-btn {
+        background: transparent;
+        border: solid 1px #552d87;
+        color: #552d87;
+    }
+        .arena-button.trans-btn:focus {
+            color: #552d87;
+        }
+.arena-button:focus, .arena-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    display: none;
+    z-index: 990;
+}
+.nutrition-modal {
+    font-family: 'Univers W01';
+    font-weight: 400;
+    font-style: normal;
+    color: #5f259f;
+}
+.nutrition-modal .daily-values tr,
+.nutrition-modal .nutrition tr {
+    border-bottom: 1px solid #5f259f;
+}
+.nutrition-modal .nutrition,
+.nutrition-modal .daily-values {
+    width: 100%;
+}
+.fancybox-wrap {
+    margin-bottom: 35px !important;
+}
+.fancybox-inner {
+    height: auto !important;
+}
+.bx-custom .bx-wrapper .bx-viewport {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    left: 0;
+}
+.bx-custom .bx-wrapper .bx-pager.bx-default-pager a {
+    border-radius: 0;
+    border: 1px solid #5f259f;
+    background: rgba(0, 0, 0, 0);
+}
+.bx-custom .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-custom .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #5f259f;
+    border-radius: 0;
+    border: 1px solid #5f259f;
+}
+.bx-custom .bx-wrapper .bx-controls-direction a {
+    z-index: 999;
+}
+.bx-custom .bx-wrapper .bx-prev {
+    background: url("https://eas.com/images/global/prod-lt-arrow.png") no-repeat 0 0;
+    background-size: 100%;
+    left: -42px;
+}
+.bx-custom .bx-wrapper .bx-next {
+    background: url("https://eas.com/images/global/prod-rt-arrow.png") no-repeat 0 0;
+    background-size: 100%;
+    right: -42px;
+}
+.bx-custom .bx-wrapper .bx-next:hover {
+    background-position: 0 0;
+}
+.prod-container .bx-wrapper img {
+    text-align: center;
+    margin: 0 auto;
+}
+.expand {
+    display: block !important;
+}
+.collapse {
+    display: none !important;
+}
+.ang-image > img {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.visible-xs {
+  display: none !important;
+}
+.visible-sm {
+    display: none !important;
+}
+.visible-md {
+    display: none !important;
+}
+.visible-lg {
+    display: none !important;
+}
+.ps-input-holder {
+    width: auto !important;
+}
+@media (max-width: 767px) {
+    .visible-xs {
+        display: block !important;
+    }
+    .hidden-xs {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .visible-sm {
+        display: block !important;
+    }
+    .hidden-sm {
+        display: none !important;
+    }
+}
+@media (min-width: 1024px) {
+    .white-btn {
+        border: solid 1px #FFF;
+        color: #FFF;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .visible-md {
+        display: block !important;
+    }
+    .hidden-md {
+        display: none !important;
+    }
+}
+@media (min-width: 1200px) {
+    .visible-lg {
+        display: block !important;
+    }
+    .hidden-lg {
+        display: none !important;
+    }
+}

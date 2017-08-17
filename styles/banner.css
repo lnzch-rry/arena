@@ -1,0 +1,80 @@
+#banner {
+    width: 100%;
+    margin: 0 auto 0;
+    position: relative;
+    font-family: "Univers W01";
+}
+    // video background
+    #banner { 
+    }
+    .vid-container {
+        overflow: hidden;
+    }
+    #banner video { 
+        width: 100%; 
+        margin-top: -50px;
+    }
+    #banner svg { 
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; // needed for FF, Safari, Edge
+      height: 100%;
+    }
+    #banner svg text {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 48px;
+    }
+    #banner svg rect {
+      fill: white;
+    }
+    #banner svg > rect {
+        -webkit-mask: url(#mask);
+        mask: url(#mask);
+    }
+    #banner span {
+        font-size: 6vw;
+        position: absolute;
+        top: 32%;
+        left: 19.5%;
+        font-weight: 700;
+        color: #000;
+    }
+a.play {
+    position: relative;
+    display: block;
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    background: #fff;
+    padding: 10px 20px;
+    margin: -1px auto 30px;
+    color: #552d87;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+    a.play:hover, a.play:focus {
+        text-decoration: none;
+    }
+.play-btn {
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+@media (min-width: 468px) {
+    #banner span {
+        top: 36%;
+    }
+}
+@media (min-width: 768px) {
+    #banner video { 
+        width: 100%; 
+        margin-top: -100px;
+    }
+    #banner span {
+        top: 40%;
+        letter-spacing: 2px;
+    }
+}
