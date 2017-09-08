@@ -17,6 +17,9 @@
       width: 80%;
       margin: 30px auto 0;
     }
+      .card-desc h1 {
+        text-transform: uppercase;
+      }
       .card-desc h2 {
         font-size: 1.65em;
         font-weight: 200;
@@ -99,7 +102,21 @@
     width: 50%;
     float: left;
   }
+    .card-desc h2 {
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
     .card-desc {
-      padding: 30px 30px 0 30px;
+      padding: 0px 30px 0 30px;
+    }
+}
+@media (min-width: 968px) {
+    .card-desc h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+    .card-desc h1 {
+      padding-top: 20px;
+      margin-bottom: 10px;
     }
 }
