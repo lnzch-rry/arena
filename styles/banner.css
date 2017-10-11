@@ -62,6 +62,7 @@ a.play {
         text-decoration: none;
         background: url('../images/arrow.png') no-repeat center;
         background-size: contain;
+        color: #9981b7;
     }
 .play-btn {
     margin-left: 10px;
