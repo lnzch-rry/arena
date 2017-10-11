@@ -27,7 +27,7 @@ $(document).ready(function () {
         $(this).toggleClass("trans-btn");
      });
 
-    // image/video functionality on hover
+    /* image/video functionality on hover
     $('.single-product img').each(function() {
         let imgSrc = $(this).attr('src');
 
@@ -38,5 +38,8 @@ $(document).ready(function () {
         });
 
     });
+    */
+
+    // placeholder images play video
 
 });
