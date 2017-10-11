@@ -13,20 +13,6 @@
     .image {
         margin-bottom: 30px;
     }
-    /*
-    .image {
-        background: url('../images/placeholder.png') no-repeat center;
-        background-size: cover;
-        height: 300px;
-        width: 100%;
-        margin-bottom: 20px;
-        -webkit-transition: all .2s;
-        transition: all .2s;
-    }
-        .image:hover {
-            background: url('https://media.giphy.com/media/saQMKMevKsDYY/giphy.gif') no-repeat center;
-            background-size: cover;
-        }*/
     .single-product {
         position: relative;
         margin-bottom: 30px;
