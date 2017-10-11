@@ -29,7 +29,7 @@ $(document).ready(function () {
 
 
     let imgSrc = $('.single-product img').attr('src');
-    console.log imgSrc;
+    console.log(imgSrc);
 
     /* image/video functionality on hover
     $('.shred img').hover(function() {
