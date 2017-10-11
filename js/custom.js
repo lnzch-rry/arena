@@ -27,4 +27,9 @@ $(document).ready(function () {
         $(this).toggleClass("trans-btn");
      });
 
+    // image/video functionality on hover
+    $('.shred img').hover(function() {
+        $(this).attr("src","new-img.png");
+    });
+
 });
