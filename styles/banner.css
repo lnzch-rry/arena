@@ -62,9 +62,7 @@ a.play {
         text-decoration: none;
         background: url('../images/arrow.png') no-repeat center;
         background-size: contain;
-    }
-    a.play:hover span, a.play:focus span {
-        opacity: .4;
+        color: #ccc0db;
     }
 .play-btn {
     margin-left: 10px;
