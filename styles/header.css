@@ -43,6 +43,7 @@
         .header-social svg {
             fill: #552d87;
         }
+        /* Add hover state to social icons */
         .header-social a:hover svg {
             fill: #ffffff;
             background: #552d87;
@@ -53,6 +54,7 @@
         .header-social a:hover svg path {
             fill: #552d87;
         }
+        /* end Add hover state to social icons */
 }
 @media (min-width: 768px) {
     .header-container {
