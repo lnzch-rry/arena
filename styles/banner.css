@@ -41,16 +41,18 @@
         font-weight: 700;
         color: #000;
     }
+/* "Play video" section */
 a.play {
     position: relative;
     display: block;
     -webkit-appearance: none;
     border: none;
     text-align: center;
-    background: #fff;
+    width: 400px;
+    background: #552d87;
     padding: 10px 20px;
     margin: -1px auto 30px;
-    color: #552d87;
+    color: #ffffff;
     font-size: 1.25em;
     letter-spacing: 1px;
     font-weight: bold;
@@ -59,6 +61,7 @@ a.play {
     a.play:hover, a.play:focus {
         text-decoration: none;
     }
+/* end "Play video" section */
 .play-btn {
     margin-left: 10px;
     padding-bottom: 5px;
