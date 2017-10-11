@@ -27,11 +27,15 @@ $(document).ready(function () {
         $(this).toggleClass("trans-btn");
      });
 
-    // image/video functionality on hover
+
+    let imgSrc = $('.single-product img').attr('src');
+    console.log imgSrc;
+
+    /* image/video functionality on hover
     $('.shred img').hover(function() {
         $(this).attr('src', '../images/Shred_3.jpg');
         }, function() {
-          $(this).attr('src', '../images/Muscle-Armor_1.jpg');
-    });
+          $(this).attr('src', '/arena/images/Muscle-Armor_1.jpg');
+    });*/
 
 });
