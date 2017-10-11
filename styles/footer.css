@@ -15,7 +15,6 @@
           display: inline-block;
           margin: 0 10px auto 10px;
       }
-      /* Above-footer social hover */
       .footer-social a:hover svg {
         margin-bottom: -2px;
         -webkit-transition: all .2s ease;
@@ -23,7 +22,6 @@
         -o-transition: all .2s ease;
         transition: all .2s ease;
       }
-      /* end Above-footer social hover */
   .footer-navigation-wrapper a {
     display: block;
     margin: 20px 10px;
