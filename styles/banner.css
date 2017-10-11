@@ -65,6 +65,8 @@ a.play {
         color: #ffffff;
         border: none;
         margin-left: 10px;
+        font-size: .9em;
+        letter-spacing: 1px;
         text-transform: uppercase;
     }
     a.play button:hover {
