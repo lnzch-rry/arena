@@ -47,7 +47,7 @@ a.play {
     -webkit-appearance: none;
     border: none;
     text-align: center;
-    background: #ffffff;
+    background: #fff;
     padding: 10px 20px;
     margin: -1px auto 30px;
     color: #552d87;
@@ -59,7 +59,6 @@ a.play {
     a.play:hover, a.play:focus {
         text-decoration: none;
     }
-/* "Play video" section */
     a.play button {
         background: #552d87;
         color: #ffffff;
@@ -74,7 +73,6 @@ a.play {
         color: #552d87;
         outline: solid 1px #552d87;
     }
-/* end "Play video" section */
 .play-btn {
     margin-left: 10px;
     padding-bottom: 5px;
