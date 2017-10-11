@@ -54,6 +54,7 @@ a.play {
     font-size: 1.25em;
     letter-spacing: 1px;
     font-weight: bold;
+    -webkit-text-stroke: 1px white;
     text-transform: uppercase;
     background: url('../images/arrow-o.png') no-repeat center;
     background-size: contain;
