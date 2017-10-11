@@ -1,6 +1,6 @@
 #products {
     margin-top: 200px;
-    padding: 20px 0 100px;
+    padding: 40px 0 100px;
     background: black; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(circle, #542c86, black 75%); /* Safari */
     background: -o-radial-gradient(circle, #542c86, black 75%); /* Opera 11.6 to 12.0 */
