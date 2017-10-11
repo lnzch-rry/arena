@@ -27,9 +27,10 @@ $(document).ready(function () {
         $(this).toggleClass("trans-btn");
      });
 
-
-    let imgSrc = $('.single-product img').attr('src');
-    console.log(imgSrc);
+    $('.single-product').each(function() {
+        let imgSrc = $('.single-product img').attr('src');
+        console.log(imgSrc);
+    });
 
     /* image/video functionality on hover
     $('.shred img').hover(function() {
