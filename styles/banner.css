@@ -69,6 +69,7 @@ a.play {
     a.play button:hover {
         background: #ffffff;
         color: #552d87;
+        outline: solid 1px #552d87;
     }
 /* end "Play video" section */
 .play-btn {
