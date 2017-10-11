@@ -29,7 +29,9 @@ $(document).ready(function () {
 
     // image/video functionality on hover
     $('.shred img').hover(function() {
-        $(this).attr("src","new-img.png");
+        $(this).attr('src', '../images/Shred_3.jpg');
+        }, function() {
+          $(this).attr('src', '../images/Muscle-Armor_1.jpg');
     });
 
 });
