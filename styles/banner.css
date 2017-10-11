@@ -33,7 +33,7 @@
         -webkit-mask: url(#mask);
         mask: url(#mask);
     }
-    #banner span {
+    #banner .bannerspan {
         font-size: 6vw;
         position: absolute;
         top: 32%;
@@ -69,7 +69,7 @@ a.play {
     padding-bottom: 5px;
 }
 @media (min-width: 468px) {
-    #banner span {
+    #banner .bannerspan {
         top: 36%;
     }
 }
@@ -78,7 +78,7 @@ a.play {
         width: 100%; 
         margin-top: -100px;
     }
-    #banner span {
+    #banner .bannerspan {
         top: 40%;
         letter-spacing: 2px;
     }
