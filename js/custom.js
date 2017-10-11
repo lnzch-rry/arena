@@ -27,16 +27,16 @@ $(document).ready(function () {
         $(this).toggleClass("trans-btn");
      });
 
-    $('.single-product .image').each(function() {
-        let imgSrc = $('this').attr('src');
-        console.log(imgSrc);
-    });
+    // image/video functionality on hover
+    $('.single-product img').each(function() {
+        let imgSrc = $(this).attr('src');
 
-    /* image/video functionality on hover
-    $('.shred img').hover(function() {
-        $(this).attr('src', '../images/Shred_3.jpg');
-        }, function() {
-          $(this).attr('src', '/arena/images/Muscle-Armor_1.jpg');
-    });*/
+        $(this).hover(function() {
+            $(this).attr('src', $(this).attr('src').replace(/\.jpg/, '.gif'));
+            }, function() {
+              $(this).attr('src', imgSrc);
+        });
+
+    });
 
 });
