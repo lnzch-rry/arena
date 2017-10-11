@@ -27,8 +27,8 @@ $(document).ready(function () {
         $(this).toggleClass("trans-btn");
      });
 
-    $('.single-product').each(function() {
-        let imgSrc = $('.single-product img').attr('src');
+    $('.single-product .image').each(function() {
+        let imgSrc = $('this').attr('src');
         console.log(imgSrc);
     });
 
