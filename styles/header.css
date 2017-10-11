@@ -43,7 +43,7 @@
         .header-social svg {
             fill: #552d87;
         }
-        .header-social:hover {
+        a:hover .header-social {
             fill: #ffffff;
             background: #552d87;
         }
