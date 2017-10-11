@@ -48,30 +48,17 @@ a.play {
     border: none;
     text-align: center;
     background: #fff;
-    padding: 10px 20px;
+    padding: 20px;
     margin: -1px auto 30px;
     color: #552d87;
     font-size: 1.25em;
     letter-spacing: 1px;
     font-weight: bold;
     text-transform: uppercase;
+    background: url('../images/arrow.png') no-repeat center;
 }
     a.play:hover, a.play:focus {
         text-decoration: none;
-    }
-    a.play button {
-        background: #552d87;
-        color: #ffffff;
-        border: none;
-        margin-left: 10px;
-        font-size: .9em;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-    a.play button:hover {
-        background: #ffffff;
-        color: #552d87;
-        outline: solid 1px #552d87;
     }
 .play-btn {
     margin-left: 10px;
