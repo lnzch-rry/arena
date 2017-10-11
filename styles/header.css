@@ -46,7 +46,12 @@
         .header-social a:hover svg {
             fill: #ffffff;
             background: #552d87;
-            outline: solid 1px #552d87;
+        }
+        .header-social a:hover svg g path {
+            fill: #ffffff;
+        }
+        .header-social a:hover svg path {
+            fill: #552d87;
         }
 }
 @media (min-width: 768px) {
