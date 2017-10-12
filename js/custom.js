@@ -40,6 +40,12 @@ $(document).ready(function () {
     });
     */
 
-    // placeholder images play video
+    // instagram feed
+    var feed = new Instafeed({
+        get: 'user',
+        tagName: '1965815096',
+        clientId: '393ac85ea21646a19db4b0a4b258add4'
+    });
+    feed.run();
 
 });
