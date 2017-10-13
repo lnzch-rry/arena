@@ -36,14 +36,6 @@
         -webkit-mask: url(#mask);
         mask: url(#mask);
     }
-    #banner .bannerspan {
-        font-size: 6vw;
-        position: absolute;
-        top: 32%;
-        left: 19.5%;
-        font-weight: 700;
-        color: #000;
-    }
 a.play {
     position: relative;
     display: block;
@@ -79,18 +71,9 @@ a.play {
     margin-left: 10px;
     padding-bottom: 5px;
 }
-@media (min-width: 468px) {
-    #banner .bannerspan {
-        top: 36%;
-    }
-}
 @media (min-width: 768px) {
     #banner video { 
         width: 100%; 
         margin-top: -100px;
-    }
-    #banner .bannerspan {
-        top: 40%;
-        letter-spacing: 2px;
     }
 }
