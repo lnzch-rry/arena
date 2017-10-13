@@ -26,6 +26,9 @@
       text-transform: uppercase;
       font-size: 48px;
     }
+    #banner svg text.smaller {
+        font-size: 18px;
+    }
     #banner svg rect {
       fill: white;
     }
