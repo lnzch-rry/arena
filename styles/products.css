@@ -11,6 +11,7 @@
         margin-top: -200px;
     }
     .image {
+        background-color: black;
         background-size: cover;
         height: 300px;
         width: 100%;
