@@ -29,13 +29,9 @@ $(document).ready(function () {
 
     // image/video functionality on hover
     $('.single-product img').each(function() {
-        let imgSrc = $(this).attr('src');
+        let imgClass = $(this).class();
+        console.log(imgClass);
 
-        $(this).hover(function() {
-            $(this).attr('src', $(this).attr('src').replace(/\.jpg/, '.gif'));
-            }, function() {
-              $(this).attr('src', imgSrc);
-        });
 
     });
 
