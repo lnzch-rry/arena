@@ -28,8 +28,8 @@ $(document).ready(function () {
      });
 
     // image/video functionality on hover
-    $('.single-product img').each(function() {
-        let imgClass = $(this).class();
+    $('.single-product .image').each(function() {
+        let imgClass = $(this).attr('class');
         console.log(imgClass);
 
 
