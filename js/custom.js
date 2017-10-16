@@ -32,11 +32,13 @@ $(document).ready(function () {
         let imgClass = $(this).attr('class').split(' ')[1];
         $(this).css("background-image", "url(/arena/images/" + imgClass + ".jpg)");
 
-        $(this).hover(function() {
-            $(this).css("background-image", "url(/arena/images/" + imgClass + ".gif)");
-            }, function() {
-              $(this).css("background-image", "url(/arena/images/" + imgClass + ".jpg)");
-        });
+        if (imgClass != 'night') {
+            $(this).hover(function() {
+                $(this).css("background-image", "url(/arena/images/" + imgClass + ".gif)");
+                }, function() {
+                  $(this).css("background-image", "url(/arena/images/" + imgClass + ".jpg)");
+            });
+        }
 
     });
 
