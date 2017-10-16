@@ -29,9 +29,14 @@ $(document).ready(function () {
 
     // image/video functionality on hover
     $('.single-product .image').each(function() {
-        let imgClass = $(this).attr('class');
-        console.log(imgClass);
+        let imgClass = $(this).attr('class').split(' ')[1];
+        $(this).css("background-image", "url(../images/" + imgClass + ".jpg)");
 
+        $(this).hover(function() {
+            $(this).css("background-image", "url(../images/" + imgClass + ".gif)");
+            }, function() {
+              $(this).css("background-image", "url(../images/" + imgClass + ".jpg)");
+        });
 
     });
 
