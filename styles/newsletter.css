@@ -58,6 +58,9 @@
             vertical-align: middle;
             margin-right: 10px;
         }
+    .caption {
+        display: none;
+    }
 @media (min-width: 768px) {
     .quote {
         width: 80%;
@@ -86,6 +89,39 @@
         }
     .insta-link {
         padding-top: 10px;
+    }
+    .caption {
+        position: absolute;
+        top: 0;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        background: rgba(0,0,0,.6);
+        height: 100%;
+        width: 100%;
+        display: table;        /* IE < 10, Opera *Presto* Desktop (Now dead) */
+        display: -webkit-box;  /* Safari 3.1 - 6, Chrome < 21 (2009 Spec), UCBrowser Android */
+        display: -moz-box;     /* Firefox 2 - 27 (2009 Spec), UCMini Android */
+        display: -ms-flexbox;  /* IE10 (2012 Syntax) */
+        display: -webkit-flex; /* Safari 6.1 - 8, Android < 4.4, BB < 10, Chrome 21 - 28 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 200;
+        font-size: 1.25em;
+        opacity: 0;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+        .caption p {
+            width: 90%;
+            margin: 0 auto;
+        }
+    #instafeed a:hover .caption {
+        opacity: 1;
     }
 }
 @media (min-width: 1450px) {
