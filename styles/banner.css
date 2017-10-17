@@ -36,14 +36,15 @@
         -webkit-mask: url(#mask);
         mask: url(#mask);
     }
+.arena-play {
+    text-align: center;
+    padding: 20px;
+}
 a.play {
     position: relative;
-    display: block;
     -webkit-appearance: none;
     border: none;
-    text-align: center;
     background: #fff;
-    padding: 20px;
     margin: -1px auto 30px;
     color: #552d87;
     font-size: 1.25em;
