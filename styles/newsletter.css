@@ -80,6 +80,7 @@
     }
         #instafeed a {
             padding: 5px;
+            position: relative;
         }
         #instafeed a img {
             padding: 0;
