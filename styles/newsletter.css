@@ -53,6 +53,9 @@
         font-weight: 200;
         letter-spacing: .5px;
     }
+        .insta-link:hover {
+            color: #fff;
+        }
         .insta-link svg {
             vertical-align: middle;
             margin-right: 10px;
