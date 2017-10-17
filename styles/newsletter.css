@@ -8,7 +8,7 @@
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
-        padding: 200px 0 100px;
+        padding: 200px 0 50px;
         position: relative;
         color: #fff;
     }
@@ -34,6 +34,29 @@
         margin: 0 auto;
         border-bottom: 1px solid #fff;
     }
+    #instafeed {
+        width: 80%;
+        margin: 0 auto;
+    }
+        #instafeed a img {
+            padding: 10px 0;
+        }
+    .insta-link {
+        padding-bottom: 100px;
+        display: block;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25em;
+        vertical-align: middle;
+        padding-bottom: 100px;
+        font-weight: 200;
+        letter-spacing: .5px;
+    }
+        .insta-link svg {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
 @media (min-width: 768px) {
     .quote {
         width: 80%;
@@ -41,8 +64,28 @@
         max-width: 850px;
     }
         .quote blockquote {
-            font-size: 2.725em;
+            font-size: 2.25em;
         }
+    #instafeed {
+        display: table;        /* IE < 10, Opera *Presto* Desktop (Now dead) */
+        display: -webkit-box;  /* Safari 3.1 - 6, Chrome < 21 (2009 Spec), UCBrowser Android */
+        display: -moz-box;     /* Firefox 2 - 27 (2009 Spec), UCMini Android */
+        display: -ms-flexbox;  /* IE10 (2012 Syntax) */
+        display: -webkit-flex; /* Safari 6.1 - 8, Android < 4.4, BB < 10, Chrome 21 - 28 */
+        display: flex;
+    }
+        #instafeed a {
+            padding: 5px;
+        }
+        #instafeed a img {
+            padding: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+    .insta-link {
+        padding-top: 10px;
+    }
 }
 @media (min-width: 1450px) {
     .quote {

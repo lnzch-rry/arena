@@ -42,5 +42,15 @@ $(document).ready(function () {
 
     });
 
+    // instagram feed
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '1965815096',
+        resolution: 'standard_resolution',
+        limit: '4',
+        accessToken: '212631272.393ac85.2f0f841481004e2ab4b0f53c064dca03',
+        template: '<a href="{{link}}" class="{{orientation}}" target="_blank"><img src="{{image}}" /></a>'
+    });
+    feed.run();
 
 });
