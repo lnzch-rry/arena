@@ -37,17 +37,17 @@
     #instafeed {
         width: 80%;
         margin: 0 auto;
+        padding-bottom: 100px;
     }
         #instafeed a img {
             padding: 10px 0;
         }
     .insta-link {
-        padding-bottom: 100px;
+        padding-bottom: 20px;
         text-align: center;
         text-decoration: none;
         font-size: 1.25em;
         vertical-align: middle;
-        padding-bottom: 100px;
         font-weight: 200;
         letter-spacing: .5px;
     }
